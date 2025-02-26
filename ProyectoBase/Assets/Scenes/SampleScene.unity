@@ -1603,9 +1603,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sellerMark: {fileID: 1688517700}
-  dialoguePanel: {fileID: 0}
-  dialogueText: {fileID: 0}
-  dialogueLines: []
+  dialoguePanel: {fileID: 1114982628}
+  botones: {fileID: 1496715568}
+  dialogueText: {fileID: 614135527}
+  dialogueLines:
+  - 'Hola muy buenas
+
+    (Presiona "E" para continuar)'
+  - Te voy a ofrecer algunas mejoras, quiere comprarlas
+  - 'Hasta luego
+
+    (Presiona "E" para continuar)'
 --- !u!65 &810640600
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -14,8 +14,17 @@ public class Vendedor : MonoBehaviour
 
     [SerializeField] private GameObject sellerMark;
     [SerializeField] private GameObject dialoguePanel;
+    [SerializeField] private GameObject botones;
+
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField, TextArea(4, 6)] private string[] dialogueLines; // TextArea para que se vea mejor en el inspector
+
+    private void Start()
+    {
+        dialoguePanel.SetActive(false);
+        sellerMark.SetActive(false);
+        botones.SetActive(false);
+    }
     public void Update()
     {
         //si el jugador esta cerca y presion E inicia el dialogo
@@ -56,6 +65,10 @@ public class Vendedor : MonoBehaviour
         if(lineIndex < dialogueLines.Length)
         {
             StartCoroutine(ShowLine());
+            if (lineIndex == dialogueLines.Length - 2)
+            {
+                botones.SetActive(true);
+            }
         }
         else
         {
