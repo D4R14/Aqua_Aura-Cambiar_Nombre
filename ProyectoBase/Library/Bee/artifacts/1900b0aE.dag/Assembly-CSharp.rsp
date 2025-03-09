@@ -359,10 +359,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Aplicaciones/Unity Hub/Editores/2022.3.33f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Aplicaciones/Unity Hub/Editores/2022.3.33f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/Enemigos/EnemySpawner.cs"
 "Assets/Scripts/Mascota/PetMove.cs"
 "Assets/Scripts/Mundo/CaidaDePlataforma.cs"
 "Assets/Scripts/Mundo/KillZone.cs"
 "Assets/Scripts/Player/BasicMoveProta.cs"
+"Assets/Scripts/Player/HealtSistem.cs"
 "Assets/Scripts/UI/MenuPausa.cs"
 "Assets/Scripts/Vendedor/Vendedor.cs"
 -langversion:9.0
