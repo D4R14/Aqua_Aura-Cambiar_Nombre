@@ -6,12 +6,12 @@ public class BasicMoveProta : MonoBehaviour
 {
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 5f; // Velocidad de movimiento
-    //[SerializeField] private float rotationSpeed = 5f; // Velocidad de rotación
+    //[SerializeField] private float rotationSpeed = 5f; // Velocidad de rotaciï¿½n
     [SerializeField] private float jumpForce = 10f; // Fuerza del salto
 
 
     [SerializeField] private Rigidbody rb;
-    //[SerializeField] private bool isGrounded;
+    private bool isGrounded;
 
     public void Update()
     {
@@ -29,10 +29,30 @@ public class BasicMoveProta : MonoBehaviour
         //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), rotationSpeed * Time.deltaTime);
 
         //salto del personaje
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGrounded) //Para que solo salte si hay suelo abajo :p
         {
 
             rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
+            isGrounded = false;
+        }
+    }
+
+    //Para que solo salte cuando toque el suelo 
+    //Cambiar si queremos doble salto
+
+    private void OnCollisionEnter(Collision collision) 
+    {
+        if(collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
+    }
+
+    private void OnCollitionExit(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false;
         }
     }
 
