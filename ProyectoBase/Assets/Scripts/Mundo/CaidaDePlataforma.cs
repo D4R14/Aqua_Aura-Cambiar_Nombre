@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class CaidaDePlataforma : MonoBehaviour
 {
-    [SerializeField] private float timeToFall = 1.5f; // Tiempo antes de colapsar
+    [SerializeField] private float timeToFall = 0.75f; // Tiempo antes de colapsar
     [SerializeField] private float destroyDelay = 2f; // Tiempo antes de destruir la plataforma
+    //[SerializeField] private float timeToRespawn = 5f; // Tiempo antes de reaparecer la plataforma
+
     private Rigidbody rb;
+
     private bool isFalling = false;
 
     private void Start()

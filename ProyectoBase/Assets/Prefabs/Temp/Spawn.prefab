@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6301912273138064490}
   - component: {fileID: 6775979679519042491}
   - component: {fileID: 6549772371724944063}
+  - component: {fileID: 7590673326380175803}
+  - component: {fileID: 8189089767431473570}
   m_Layer: 0
   m_Name: Spawn
   m_TagString: Untagged
@@ -107,3 +109,48 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!65 &7590673326380175803
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087941943709819215}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8, y: 8, z: 8}
+  m_Center: {x: 0, y: 2.98, z: 0}
+--- !u!114 &8189089767431473570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087941943709819215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1cad7aa340d0574fb2733fa44cb6548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  life: 20
+  boxTrigger: {fileID: 7590673326380175803}
+  enemyPrefab: {fileID: 2059065965700988762, guid: eb74db24f24362d479c97972b148cb22, type: 3}
+  minEnemiesSpawn: 1
+  maxEnemiesSpawn: 5
+  maxEnemiesAlive: 10
+  maxEnemiestoGenerate: 10
+  enemiesGenerated: 0
+  currentEnemiesAlive: 0
+  minSpawnInterval: 1
+  maxSpawnInterval: 5
+  spawnRadius: 2
