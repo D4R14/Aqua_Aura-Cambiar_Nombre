@@ -6,8 +6,10 @@ public class BasicMoveProta : MonoBehaviour
 {
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 5f; // Velocidad de movimiento
-    //[SerializeField] private float rotationSpeed = 5f; // Velocidad de rotacion
+    [SerializeField] private float rotationSpeed = 5f; // Velocidad de rotacion
     [SerializeField] private float jumpForce = 10f; // Fuerza del salto
+
+    private Vector3 lastDirection = Vector3.forward;
 
 
     [SerializeField] private Rigidbody rb;
@@ -27,6 +29,12 @@ public class BasicMoveProta : MonoBehaviour
 
         //rotacion del personaje
         //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), rotationSpeed * Time.deltaTime);
+        if(movement != Vector3.zero)
+        {
+            Quaternion rote = Quaternion.LookRotation(movement, Vector3.up);
+
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, rote, rotationSpeed * Time.deltaTime);
+        }
 
         //salto del personaje
         if (Input.GetButtonDown("Jump") && isGrounded) //Para que solo salte si hay suelo abajo :p

@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Enemigo : MonoBehaviour
 {
+    private EnemySpawner enemySpawner;
     public ParticleSystem particles;
     public float destroyDelay = 0.1f; //Tiempo en el que muere el enemigo
 
@@ -42,6 +43,7 @@ public class Enemigo : MonoBehaviour
         }
 
         Destroy(gameObject, destroyDelay);
+        //enemySpawner.EnemyDied();
     }
 }
 

@@ -34,11 +34,9 @@ public class PetMove : MonoBehaviour
             }
             if (Vector3.Distance(transform.position, target.position) > xtreme_distance)
             {
-
-                {
-                    //teletransporta la mascota hasta el target
-                    this.transform.position = target.position;
-                }
+                //teletransporta la mascota hasta el target
+                Vector3 posicionTP = new Vector3(target.position.x - 5, target.position.y, target.position.z);
+                this.transform.position = posicionTP;
             }
         }
     }
