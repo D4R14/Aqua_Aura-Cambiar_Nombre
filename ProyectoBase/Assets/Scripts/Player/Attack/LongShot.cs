@@ -15,22 +15,25 @@ public class LongShot : MonoBehaviour
     private int cartriche = 10;
 
     private float cooldown = 1f;
-    private float timeAlive = 2f;
+    //private float timeAlive = 2f; Esta configuración esta en el script de Bullet
+
+    private int bulletDamage = 1;
+
 
     [Header("UI settings")]
     [SerializeField] private TextMeshProUGUI cartricheText;
 
-    private void Start()
+    /*private void Start()
     {
         bullet = GameObject.FindWithTag("Bullet");
-    }
+    }*/
     private void Update()
     {
         // Si se presiona el boton izquierdo del mouse
         if (Input.GetMouseButtonDown(0))
         {
             shootBullet();
-            StartCoroutine(LifeBullet());
+            //StartCoroutine(LifeBullet());
         }
         cartricheText.text = cartriche.ToString(); //Actualizamos el texto de las balas
     }
@@ -42,9 +45,15 @@ public class LongShot : MonoBehaviour
             GameObject bullet = Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation); //Instanciamos la bala
             Rigidbody rb = bullet.GetComponent<Rigidbody>(); //Obtenemos el rigidbody de la bala
             rb.AddForce(bulletSpawn.forward * bulletSpeed, ForceMode.Impulse); //Aplicamos una fuerza hacia adelante
+            //cartriche--; //Restamos una
+
+            Bullet bulletScript = bullet.AddComponent<Bullet>();
+            bulletScript.SetLifeTime(2f);
+            bulletScript.SetDamage(bulletDamage); //Daño de bala
+
             cartriche--; //Restamos una
 
-            Destroy(bullet, timeAlive); //Destruimos la bala despues de un tiempo
+            //Destroy(bullet, timeAlive); //Destruimos la bala despues de un tiempo
         }
         //Si no hay balas en el cargador
         else
@@ -61,7 +70,7 @@ public class LongShot : MonoBehaviour
     }
 
     //Tiempo de vida de la bala
-    private IEnumerator LifeBullet()
+    /*private IEnumerator LifeBullet()
     {
         yield return new WaitForSecondsRealtime(timeAlive);
         Destroy(bullet);
@@ -71,5 +80,6 @@ public class LongShot : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         Destroy(bullet);
-    }
+    }*/
+
 }
