@@ -8,8 +8,6 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private BoxCollider boxTrigger;
     private Transform player;
 
-
-
     [Header("Spawn configuration")] //Configuracion de cuantos enemigos spawnear
     [SerializeField] private GameObject enemyPrefab;
 
@@ -85,21 +83,22 @@ public class EnemySpawner : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        //Destruimos el collider para que solo se genere una vez
-        Destroy(boxTrigger);
-        //Generamos 4 enemigos al inicio
-        for (int i = 0; i <= 3; i++)
-        {
-            float offsetX = Random.Range(-spawnRadius, spawnRadius);
-            float offsetZ = Random.Range(-spawnRadius, spawnRadius);
-            Vector3 spawnOffset = new Vector3(offsetX, 0, offsetZ);
-            Vector3 spawnPosition = (Vector3)gameObject.transform.position + spawnOffset;
-            Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
-        }
+
         //Si el jugador entra en el trigger, empezamos a spawnear enemigos
         if (collision.gameObject.CompareTag("Player") && !isPaused)
         {
             StartCoroutine(SpawnEnemies());
+            //Destruimos el collider para que solo se genere una vez
+            Destroy(boxTrigger);
+            //Generamos 4 enemigos al inicio
+            for (int i = 0; i <= 3; i++)
+            {
+                float offsetX = Random.Range(-spawnRadius, spawnRadius);
+                float offsetZ = Random.Range(-spawnRadius, spawnRadius);
+                Vector3 spawnOffset = new Vector3(offsetX, 0, offsetZ);
+                Vector3 spawnPosition = (Vector3)gameObject.transform.position + spawnOffset;
+                Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+            }
         }
     }
     public void EnemyDied()

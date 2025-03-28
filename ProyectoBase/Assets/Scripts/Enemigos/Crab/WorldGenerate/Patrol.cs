@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class Patrol : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private GameObject[] waypoints;
+    [SerializeField] private float speed = 5;
+    [SerializeField] private int closestWaypoint;
+
+    //Asignamos el tag de los waypoints
+    private void Start()
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
+    //hacemos que el objeto se mueva hacia el siguiente waypoint
+    private void Update()
     {
-        
+
     }
+
 }

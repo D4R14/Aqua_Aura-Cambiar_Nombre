@@ -144,13 +144,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 20
   boxTrigger: {fileID: 7590673326380175803}
-  enemyPrefab: {fileID: 2059065965700988762, guid: eb74db24f24362d479c97972b148cb22, type: 3}
+  enemyPrefab: {fileID: 7400061881243015358, guid: f246bdf25ab0ad04fab0324c74b33cef, type: 3}
   minEnemiesSpawn: 1
   maxEnemiesSpawn: 5
-  maxEnemiesAlive: 10
   maxEnemiestoGenerate: 10
-  enemiesGenerated: 0
-  currentEnemiesAlive: 0
   minSpawnInterval: 1
   maxSpawnInterval: 5
   spawnRadius: 2

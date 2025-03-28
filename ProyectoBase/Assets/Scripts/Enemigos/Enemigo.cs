@@ -6,6 +6,8 @@ public class Enemigo : MonoBehaviour
     public ParticleSystem particles;
     public float destroyDelay = 0.1f; //Tiempo en el que muere el enemigo
 
+    public Animator animator;
+
     [SerializeField] private int particleCount = 10; //Monedas o puntos aún no se 
 
     [Header("Enemy Stats")]
@@ -14,15 +16,19 @@ public class Enemigo : MonoBehaviour
 
     private void Start()
     {
-        currentHealth = maxHealth; 
+        //Inicializamos la vida del enemigo
+        currentHealth = maxHealth;
+        //iniciamos la animación de caminar
+        animator.SetBool("isWalking", true);    
     }
 
     //Danio jsjsj Recibir daño
 
     public void RecibirDanio(int damage)
     {
-        currentHealth -= damage; 
-
+        //Restamos la vida del enemigo
+        currentHealth -= damage;
+        //Si la vida del enemigo es menor o igual a 0, lo destruimos
         if (currentHealth <= 0) 
         {
             ActivarDestruccion();
@@ -31,17 +37,21 @@ public class Enemigo : MonoBehaviour
 
     private void ActivarDestruccion()
     {
+        //si tiene particulas
         if (particles != null)
         {
+            //Instanciamos las particulas
             particles.transform.parent = null;
 
+            //Configuramos las particulas
             var emission = particles.emission;
             emission.SetBursts(new ParticleSystem.Burst[] {}); // Evita duplicados
             emission.SetBursts(new ParticleSystem.Burst[] { new ParticleSystem.Burst(0f, particleCount) });
-
+            //Reproducimos las particulas
             particles.Play();
         }
 
+        //Destruimos el enemigo
         Destroy(gameObject, destroyDelay);
         //enemySpawner.EnemyDied();
     }

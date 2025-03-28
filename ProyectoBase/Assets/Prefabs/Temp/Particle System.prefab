@@ -4845,7 +4845,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6cccdacfba92df4b83e04ded11975ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjPuntos: {fileID: 2613852809451840857, guid: c45a0c72736969f4bbdb7b84b100a5b4, type: 3}
   puntosQueDa: 10
 --- !u!54 &909975645575013732
 Rigidbody:
