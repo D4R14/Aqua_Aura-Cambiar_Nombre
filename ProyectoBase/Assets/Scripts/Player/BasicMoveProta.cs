@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class BasicMoveProta : MonoBehaviour
 {
+    [SerializeField] private Transform cameraCM;
+
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 5f; // Velocidad de movimiento
     [SerializeField] private float rotationSpeed = 5f; // Velocidad de rotacion
     [SerializeField] private float jumpForce = 10f; // Fuerza del salto
-
-    private Vector3 lastDirection = Vector3.forward;
-
 
     [SerializeField] private Rigidbody rb;
     private bool isGrounded;
@@ -19,17 +18,20 @@ public class BasicMoveProta : MonoBehaviour
     {
         //PuedeMoverse(true);
         //axis de movimiento
-        float horizontalImput = Input.GetAxis("Horizontal");
-        float verticalImput = Input.GetAxis("Vertical");
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
         
         //movimiento del personaje
-        Vector3 movement = new Vector3(horizontalImput, 0f, verticalImput) * moveSpeed;
-        movement.Normalize();
-        transform.position = transform.position + movement * moveSpeed * Time.deltaTime;
+        Vector3 movement = cameraCM.forward * v + cameraCM.right * h; //Direccion del movimiento segun la camara
+        movement.y = 0;//Para que no se mueva en y
+
+        movement.Normalize(); //Para que no se mueva mas rapido en diagonal
+
+        transform.Translate(movement * moveSpeed * Time.deltaTime, Space.World);//Movimiento del personaje
 
         //rotacion del personaje
         //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), rotationSpeed * Time.deltaTime);
-        if(movement != Vector3.zero)
+        if (movement != Vector3.zero)
         {
             Quaternion rote = Quaternion.LookRotation(movement, Vector3.up);
 
