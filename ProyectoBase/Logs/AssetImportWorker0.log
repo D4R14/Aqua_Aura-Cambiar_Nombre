@@ -15,7 +15,7 @@ C:/Users/naomi/Documents/Nueva carpeta (2)/Aqua_Aura-Cambiar_Nombre/ProyectoBase
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60312
+51729
 Successfully changed project path to: C:/Users/naomi/Documents/Nueva carpeta (2)/Aqua_Aura-Cambiar_Nombre/ProyectoBase
 C:/Users/naomi/Documents/Nueva carpeta (2)/Aqua_Aura-Cambiar_Nombre/ProyectoBase
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/naomi/Documents/Nueva carpeta (2)/Aqua_Aura-Cambiar_Nombre/ProyectoBase
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13736] Host "[IP] 192.168.100.63 [Port] 0 [Flags] 2 [Guid] 1170356797 [EditorId] 1170356797 [Version] 1048832 [Id] WindowsEditor(7,Naomi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10744] Host "[IP] 192.168.100.63 [Port] 0 [Flags] 2 [Guid] 98330508 [EditorId] 98330508 [Version] 1048832 [Id] WindowsEditor(7,Naomi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13736] Host "[IP] 192.168.100.63 [Port] 0 [Flags] 2 [Guid] 1170356797 [EditorId] 1170356797 [Version] 1048832 [Id] WindowsEditor(7,Naomi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10744] Host "[IP] 192.168.100.63 [Port] 0 [Flags] 2 [Guid] 98330508 [EditorId] 98330508 [Version] 1048832 [Id] WindowsEditor(7,Naomi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 8.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.33f1 (b2c853adf198)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008608 seconds.
-- Loaded All Assemblies, in  0.401 seconds
+Registered in 0.007437 seconds.
+- Loaded All Assemblies, in  0.333 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 335 ms
+Android Extension - Scanning For ADB Devices 302 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.653 seconds
-Domain Reload Profiling: 1052ms
-	BeginReloadAssembly (124ms)
+- Finished resetting the current domain, in  0.623 seconds
+Domain Reload Profiling: 955ms
+	BeginReloadAssembly (108ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (156ms)
-		LoadAssemblies (123ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (151ms)
-				TypeCache.ScanAssembly (138ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (115ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (653ms)
+	FinalizeReload (623ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (593ms)
+		SetupLoadedEditorAssemblies (572ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (445ms)
+			InitializePlatformSupportModulesInManaged (418ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (94ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,56 +118,56 @@ Domain Reload Profiling: 1052ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-000001FDFF692E30 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-0000028672138140 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDB9B4C220 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000028672138140 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDB9B4C220 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000028672138140 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFE166E20 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-00000286729E7820 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFE166E20 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000028674DAC720 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDB9B4C220 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000028673847E20 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDB9B64030 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000286729E7820 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFED1D020 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000028673D6D020 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFED5E830 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000028672159B50 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFF0D4030 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000028672360010 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFF14F5A0 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000028673DD7030 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFF14F5A0 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000028673E29E40 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFED95E40 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000028672172EB0 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFE166E20 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0000028673DC1040 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFF6EC970 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000028673DC1040 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFF1733B0 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0000028673EE6430 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFED95E40 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0000028672172EB0 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFF1943C0 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-00000286723D0C40 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFDA439F0 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000028673F17450 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFDAAF210 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002867242ABC0 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFDAE7C20 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000028674167430 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFDB04F60 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-000002867417CA50 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFDB10B10 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-0000028673A5B020 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FDFDB1C920 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000028673A66E30 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.648 seconds
-Refreshing native plugins compatible for Editor in 4.27 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.579 seconds
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -175,47 +175,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.729 seconds
-Domain Reload Profiling: 1374ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  0.704 seconds
+Domain Reload Profiling: 1281ms
+	BeginReloadAssembly (136ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (423ms)
-		LoadAssemblies (323ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (370ms)
+		LoadAssemblies (294ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (180ms)
-			TypeCache.Refresh (159ms)
-				TypeCache.ScanAssembly (143ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (122ms)
 			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (730ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (705ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (576ms)
+		SetupLoadedEditorAssemblies (557ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
+			InitializePlatformSupportModulesInManaged (21ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (465ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (453ms)
 			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3333 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (131.4 KB). Loaded Objects now: 3797.
+Unloading 46 unused Assets / (131.5 KB). Loaded Objects now: 3797.
 Memory consumption went from 133.9 MB to 133.8 MB.
-Total: 2.824300 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.083800 ms MarkObjects: 2.338800 ms  DeleteObjects: 0.151300 ms)
+Total: 4.118400 ms (FindLiveObjects: 0.248900 ms CreateObjectMapping: 0.209200 ms MarkObjects: 3.499700 ms  DeleteObjects: 0.159100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -233,134 +233,293 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1438735.306605 seconds.
-  path: Assets/Sprites/Corales/Materials/coral rosa.mat
-  artifactKey: Guid(2bf9c1ae43e14914abbaebaa1073a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Corales/Materials/coral rosa.mat using Guid(2bf9c1ae43e14914abbaebaa1073a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 6853.677188 seconds.
+  path: Assets/Modelos/material bueno pilar.mat
+  artifactKey: Guid(ca4bda3bd90b33d4abb66d6b4448fce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/material bueno pilar.mat using Guid(ca4bda3bd90b33d4abb66d6b4448fce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1c496b0734ac7511911201f527d71a56') in 0.096559 seconds
+ -> (artifact id: '70cb6d2dc4e9d6f39baf4aa053b0b6ef') in 0.097394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.311373 seconds.
+  path: Assets/Modelos/pilar.mat
+  artifactKey: Guid(ca4bda3bd90b33d4abb66d6b4448fce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar.mat using Guid(ca4bda3bd90b33d4abb66d6b4448fce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '29e671afa384d07d234c8bdfea60a694') in 0.046650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 25.495581 seconds.
+  path: Assets/Modelos/pilar romano_LOWPOLY_1_Material_Normal.png
+  artifactKey: Guid(fa48ba2feb460e243aead35f167b363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar romano_LOWPOLY_1_Material_Normal.png using Guid(fa48ba2feb460e243aead35f167b363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd16e32c7a596bc4142e6dbfad3ac82b0') in 0.042488 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 22.313293 seconds.
-  path: Assets/Materiales/MaterialesTemp/Mascota.mat
-  artifactKey: Guid(5132dfeac661b114ba874928f7a9d249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/MaterialesTemp/Mascota.mat using Guid(5132dfeac661b114ba874928f7a9d249) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 87.037369 seconds.
+  path: Assets/Modelos/lowpoly_pilar romano_1.obj
+  artifactKey: Guid(2191477f9791c564f808372cf74170e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/lowpoly_pilar romano_1.obj using Guid(2191477f9791c564f808372cf74170e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3398201f6dfb4b8252b74812ebe1f526') in 0.020737 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '186145369627fcf013d1670b40627afe') in 0.073612 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Materiales/MaterialesTemp/SavePoint.mat
-  artifactKey: Guid(dc87470262432394192bbbaf0044ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materiales/MaterialesTemp/SavePoint.mat using Guid(dc87470262432394192bbbaf0044ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd040f3f68a8b96cfbaaeaddbbf184971') in 0.016216 seconds
+  Time since last request: 7.145510 seconds.
+  path: Assets/Modelos
+  artifactKey: Guid(29d6f44e0063e1744b676acfd3258c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos using Guid(29d6f44e0063e1744b676acfd3258c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2203ce695a7361558b2cfab448a3aba') in 0.000617 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3.196387 seconds.
-  path: Assets/Modelos/MapaNivelDos.blend
-  artifactKey: Guid(471dc25132b337b43958b868accc7eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos/MapaNivelDos.blend using Guid(471dc25132b337b43958b868accc7eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7e2a427023aab03d170a84dc85ea123f') in 0.412997 seconds
+  Time since last request: 6.418494 seconds.
+  path: Assets/Modelos/pilar
+  artifactKey: Guid(84c8620bddd80844f9cb663503448b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar using Guid(84c8620bddd80844f9cb663503448b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c2da2578e22ce21f906d4ee3d4d95bd6') in 0.000435 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 169
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.580984 seconds.
-  path: Assets/Prefabs/Temp/cangrejo.fbx
-  artifactKey: Guid(b4c91b419e2780f41a0c396957a0be98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Temp/cangrejo.fbx using Guid(b4c91b419e2780f41a0c396957a0be98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 7.103538 seconds.
+  path: Assets/Modelos/pilar romano_LOWPOLY_1_Material_Normal.png
+  artifactKey: Guid(fa48ba2feb460e243aead35f167b363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar romano_LOWPOLY_1_Material_Normal.png using Guid(fa48ba2feb460e243aead35f167b363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a331dcc548e17b4835e7a4ca24ca679a') in 0.030648 seconds
+ -> (artifact id: '607724574eef8148d7f1fcaeaae19a07') in 0.041998 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Temp/Particle System.prefab
-  artifactKey: Guid(8d7782da66523724996deeaf433138cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Temp/Particle System.prefab using Guid(8d7782da66523724996deeaf433138cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 3.478649 seconds.
+  path: Assets/Modelos/pilar/pilar.mat
+  artifactKey: Guid(ca4bda3bd90b33d4abb66d6b4448fce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar/pilar.mat using Guid(ca4bda3bd90b33d4abb66d6b4448fce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '19e3beaec9f24e8cd1714f390aafe61b') in 0.023914 seconds
+ -> (artifact id: 'b061aaa04e77902400813eaf938da657') in 0.137440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 331.503023 seconds.
+  path: Assets/Modelos/pilar/PBR - Metallic Roughness Alpha-blend.prefab
+  artifactKey: Guid(0d9d5c5ed3661b148a8c091f4c67bb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar/PBR - Metallic Roughness Alpha-blend.prefab using Guid(0d9d5c5ed3661b148a8c091f4c67bb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5228f9a75ea958b0173288a2bdb06d29') in 0.003847 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 138.680460 seconds.
+  path: Assets/Modelos/pilar/lowpoly_pilar romano_1.obj
+  artifactKey: Guid(2191477f9791c564f808372cf74170e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar/lowpoly_pilar romano_1.obj using Guid(2191477f9791c564f808372cf74170e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f9f32128bb803f421a91f0c0ff21b6f8') in 0.029195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 159.139094 seconds.
+  path: Assets/Modelos/pilar/lowpoly_pilar romano_1.obj
+  artifactKey: Guid(2191477f9791c564f808372cf74170e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar/lowpoly_pilar romano_1.obj using Guid(2191477f9791c564f808372cf74170e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '08224566f88857e1ad6ad992c8623e29') in 0.067110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 44.943882 seconds.
+  path: Assets/Modelos/pilar/material bueno pilar.mat
+  artifactKey: Guid(5a7d42847b552314383859d3e951e6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar/material bueno pilar.mat using Guid(5a7d42847b552314383859d3e951e6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6fc1fbc525d497e3a84449dbf58c1547') in 0.013929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 59.139510 seconds.
+  path: Assets/Modelos/pilar/pilar romano_LOWPOLY_1_Material_Normal 1.png
+  artifactKey: Guid(c38031035a27a3d408141b6c3371bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar/pilar romano_LOWPOLY_1_Material_Normal 1.png using Guid(c38031035a27a3d408141b6c3371bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8d8510befa55bc810b53bc1eec94b635') in 0.032699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 49.551767 seconds.
+  path: Assets/Modelos/pilar/pilar romano_LOWPOLY_1_Material_Normal 1.png
+  artifactKey: Guid(c38031035a27a3d408141b6c3371bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar/pilar romano_LOWPOLY_1_Material_Normal 1.png using Guid(c38031035a27a3d408141b6c3371bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dc80aca2e4562c9fe01419860ef87a57') in 0.065033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.082720 seconds.
+  path: Assets/Modelos/pilar/lowpoly_pilar romano_1.obj
+  artifactKey: Guid(2191477f9791c564f808372cf74170e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar/lowpoly_pilar romano_1.obj using Guid(2191477f9791c564f808372cf74170e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e6d61fea0a8c37e71eb000e7cf5f13ff') in 0.144897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 679.231075 seconds.
+  path: Assets/Modelos/New Folder
+  artifactKey: Guid(5dc2317cc8f94994eb3962b8ce000aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/New Folder using Guid(5dc2317cc8f94994eb3962b8ce000aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2eb9b722cc46f56efd6470abc7e814cc') in 0.001126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 53.510824 seconds.
+  path: Assets/Modelos/pilar/lowpoly_pilar romano_1.obj
+  artifactKey: Guid(2191477f9791c564f808372cf74170e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar/lowpoly_pilar romano_1.obj using Guid(2191477f9791c564f808372cf74170e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a15e1c819e8abadda1839256cb89da2') in 0.028128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Modelos/pilar/pilar.mat
+  artifactKey: Guid(ca4bda3bd90b33d4abb66d6b4448fce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar/pilar.mat using Guid(ca4bda3bd90b33d4abb66d6b4448fce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6f1bc17cd3b50b02b3f3bf69ea60745d') in 0.014101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Modelos/pilar/PBR - Metallic Roughness Alpha-blend.prefab
+  artifactKey: Guid(0d9d5c5ed3661b148a8c091f4c67bb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/pilar/PBR - Metallic Roughness Alpha-blend.prefab using Guid(0d9d5c5ed3661b148a8c091f4c67bb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f7b569b31c024db03e43770df80a0f1') in 0.030067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 40.928603 seconds.
+  path: Assets/New Folder 1/PBR - Metallic Roughness Alpha-blend.prefab
+  artifactKey: Guid(b47c13cd687f9f143bb581f94b676271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder 1/PBR - Metallic Roughness Alpha-blend.prefab using Guid(b47c13cd687f9f143bb581f94b676271) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e9ac158a0628e5d617e62e3b4da09c0') in 0.042615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 18.363529 seconds.
+  path: Assets/New Folder/New Folder
+  artifactKey: Guid(66b70748dd8158e47812d8adb5eca3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/New Folder using Guid(66b70748dd8158e47812d8adb5eca3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3ba6d41876f3ce627046efd2c54fa1f9') in 0.000840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.084186 seconds.
+  path: Assets/New Folder/New Folder/pilar romano_LOWPOLY_1_Material_Normal.png
+  artifactKey: Guid(d0bebb078fb4732409202fd7bd05ab3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/New Folder/pilar romano_LOWPOLY_1_Material_Normal.png using Guid(d0bebb078fb4732409202fd7bd05ab3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c2bfcf80e7cfa267f6504efa5030fa44') in 0.036795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.288161 seconds.
+  path: Assets/New Folder/New Folder 1/material bueno pilar.mat
+  artifactKey: Guid(380940684e156694a944414f19d39584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/New Folder 1/material bueno pilar.mat using Guid(380940684e156694a944414f19d39584) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6668f1ab9a2f1ef3f4d17447c7c1f6e2') in 0.017046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 652.318674 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(27767e4c3e4e35545ac7cbd4e1e400b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(27767e4c3e4e35545ac7cbd4e1e400b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7c87c9931641c13eafbae167c782a5f4') in 0.000917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.293990 seconds.
+  path: Assets/Prefabs/Temp
+  artifactKey: Guid(d7509729d19d8294881ca0cfdc268959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Temp using Guid(d7509729d19d8294881ca0cfdc268959) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54c7333409663991fca1528aa3996b8d') in 0.000629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 234.802809 seconds.
+  path: Assets/Modelos/rocas/roca.mat
+  artifactKey: Guid(ddbc02ea13e811f458127e2c31ccee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/rocas/roca.mat using Guid(ddbc02ea13e811f458127e2c31ccee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1db424cc1a66cd1aee94f0114ef2600e') in 0.048203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1552.996577 seconds.
+  path: Assets/Modelos/rocas/roca.mat
+  artifactKey: Guid(ddbc02ea13e811f458127e2c31ccee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/rocas/roca.mat using Guid(ddbc02ea13e811f458127e2c31ccee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '45e2e1fd96e21f8dfd4c36485ccd93b9') in 0.019349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 101.084186 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh-MapaNivelDos.asset
+  artifactKey: Guid(98cecd731286aa941b5e315e5c599001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh-MapaNivelDos.asset using Guid(98cecd731286aa941b5e315e5c599001) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '02c26f127130059fd5f0c887f6c3ecf9') in 0.002230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh-NavMesh Surface.asset
+  artifactKey: Guid(b57624d55b0508e45aed1bdde1fb3182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh-NavMesh Surface.asset using Guid(b57624d55b0508e45aed1bdde1fb3182) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '132a7b1e7ceddeee82226e9e889df715') in 0.008687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1

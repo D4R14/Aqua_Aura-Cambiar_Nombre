@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.33f1 (b2c853adf198) revision 11716691'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'es' Physical Memory: 32505 MB
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 16005 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Aplicaciones\Unity Hub\Editores\2022.3.33f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.33f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Juegos Creados/Aqua_Aura-Cambiar_Nombre/ProyectoBase
+C:/Users/naomi/Documents/Nueva carpeta (2)/Aqua_Aura-Cambiar_Nombre/ProyectoBase
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49174
-Successfully changed project path to: C:/Juegos Creados/Aqua_Aura-Cambiar_Nombre/ProyectoBase
-C:/Juegos Creados/Aqua_Aura-Cambiar_Nombre/ProyectoBase
+60312
+Successfully changed project path to: C:/Users/naomi/Documents/Nueva carpeta (2)/Aqua_Aura-Cambiar_Nombre/ProyectoBase
+C:/Users/naomi/Documents/Nueva carpeta (2)/Aqua_Aura-Cambiar_Nombre/ProyectoBase
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,68 +49,68 @@ C:/Juegos Creados/Aqua_Aura-Cambiar_Nombre/ProyectoBase
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5360] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 3506839432 [EditorId] 3506839432 [Version] 1048832 [Id] WindowsEditor(7,LuisC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13736] Host "[IP] 192.168.100.63 [Port] 0 [Flags] 2 [Guid] 1170356797 [EditorId] 1170356797 [Version] 1048832 [Id] WindowsEditor(7,Naomi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5360] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 3506839432 [EditorId] 3506839432 [Version] 1048832 [Id] WindowsEditor(7,LuisC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13736] Host "[IP] 192.168.100.63 [Port] 0 [Flags] 2 [Guid] 1170356797 [EditorId] 1170356797 [Version] 1048832 [Id] WindowsEditor(7,Naomi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 12.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.33f1 (b2c853adf198)
-[Subsystems] Discovering subsystems at path C:/Aplicaciones/Unity Hub/Editores/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Juegos Creados/Aqua_Aura-Cambiar_Nombre/ProyectoBase/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/naomi/Documents/Nueva carpeta (2)/Aqua_Aura-Cambiar_Nombre/ProyectoBase/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
     Vendor:   NVIDIA
-    VRAM:     3962 MB
-    Driver:   32.0.15.7283
+    VRAM:     5996 MB
+    Driver:   32.0.15.6607
 Initialize mono
-Mono path[0] = 'C:/Aplicaciones/Unity Hub/Editores/2022.3.33f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Aplicaciones/Unity Hub/Editores/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Aplicaciones/Unity Hub/Editores/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Aplicaciones/Unity Hub/Editores/2022.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Aplicaciones/Unity Hub/Editores/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009020 seconds.
-- Loaded All Assemblies, in  0.371 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008608 seconds.
+- Loaded All Assemblies, in  0.401 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1229 ms
+Android Extension - Scanning For ADB Devices 335 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.706 seconds
-Domain Reload Profiling: 2075ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  0.653 seconds
+Domain Reload Profiling: 1052ms
+	BeginReloadAssembly (124ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (158ms)
-		LoadAssemblies (102ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (123ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (153ms)
-				TypeCache.ScanAssembly (137ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (138ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1707ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (653ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1637ms)
+		SetupLoadedEditorAssemblies (593ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1362ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (445ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (186ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,56 @@ Domain Reload Profiling: 2075ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.051 seconds
-Refreshing native plugins compatible for Editor in 5.41 ms, found 3 plugins.
+Symbol file data-000001FDFF692E30 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDB9B4C220 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDB9B4C220 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFE166E20 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFE166E20 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDB9B4C220 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDB9B64030 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFED1D020 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFED5E830 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFF0D4030 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFF14F5A0 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFF14F5A0 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFED95E40 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFE166E20 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFF6EC970 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFF1733B0 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFED95E40 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFF1943C0 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFDA439F0 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFDAAF210 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFDAE7C20 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFDB04F60 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFDB10B10 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FDFDB1C920 doesn't match image C:\Users\naomi\Documents\Nueva carpeta (2)\Aqua_Aura-Cambiar_Nombre\ProyectoBase\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.648 seconds
+Refreshing native plugins compatible for Editor in 4.27 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,47 +175,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.176 seconds
-Domain Reload Profiling: 2222ms
-	BeginReloadAssembly (227ms)
+- Finished resetting the current domain, in  0.729 seconds
+Domain Reload Profiling: 1374ms
+	BeginReloadAssembly (141ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (692ms)
-		LoadAssemblies (513ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (323ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (314ms)
-			TypeCache.Refresh (276ms)
-				TypeCache.ScanAssembly (252ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1177ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (143ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (730ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (935ms)
+		SetupLoadedEditorAssemblies (576ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (766ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (465ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 8.34 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3333 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (131.0 KB). Loaded Objects now: 3797.
+Unloading 46 unused Assets / (131.4 KB). Loaded Objects now: 3797.
 Memory consumption went from 133.9 MB to 133.8 MB.
-Total: 8.268200 ms (FindLiveObjects: 0.436500 ms CreateObjectMapping: 0.223600 ms MarkObjects: 7.357300 ms  DeleteObjects: 0.249100 ms)
+Total: 2.824300 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.083800 ms MarkObjects: 2.338800 ms  DeleteObjects: 0.151300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -185,41 +233,130 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 253720.566052 seconds.
-  path: Assets/Prefabs/Temp/Crab.prefab
-  artifactKey: Guid(eb74db24f24362d479c97972b148cb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Temp/Crab.prefab using Guid(eb74db24f24362d479c97972b148cb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 1438735.306605 seconds.
+  path: Assets/Sprites/Corales/Materials/coral rosa.mat
+  artifactKey: Guid(2bf9c1ae43e14914abbaebaa1073a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Corales/Materials/coral rosa.mat using Guid(2bf9c1ae43e14914abbaebaa1073a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '09e25fd8e85bf4f1f668dd136cfa78f0') in 0.302231 seconds
+ -> (artifact id: '1c496b0734ac7511911201f527d71a56') in 0.096559 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 563
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(27767e4c3e4e35545ac7cbd4e1e400b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(27767e4c3e4e35545ac7cbd4e1e400b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e0692edcfecf1545235c9841ed35591a') in 0.001604 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Prefabs/CRAB.prefab
-  artifactKey: Guid(f246bdf25ab0ad04fab0324c74b33cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CRAB.prefab using Guid(f246bdf25ab0ad04fab0324c74b33cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 22.313293 seconds.
+  path: Assets/Materiales/MaterialesTemp/Mascota.mat
+  artifactKey: Guid(5132dfeac661b114ba874928f7a9d249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/MaterialesTemp/Mascota.mat using Guid(5132dfeac661b114ba874928f7a9d249) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7ba9544e949861200808142418f83dd7') in 0.095997 seconds
+ -> (artifact id: '3398201f6dfb4b8252b74812ebe1f526') in 0.020737 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 566
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materiales/MaterialesTemp/SavePoint.mat
+  artifactKey: Guid(dc87470262432394192bbbaf0044ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/MaterialesTemp/SavePoint.mat using Guid(dc87470262432394192bbbaf0044ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd040f3f68a8b96cfbaaeaddbbf184971') in 0.016216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.196387 seconds.
+  path: Assets/Modelos/MapaNivelDos.blend
+  artifactKey: Guid(471dc25132b337b43958b868accc7eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/MapaNivelDos.blend using Guid(471dc25132b337b43958b868accc7eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e2a427023aab03d170a84dc85ea123f') in 0.412997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 1.580984 seconds.
+  path: Assets/Prefabs/Temp/cangrejo.fbx
+  artifactKey: Guid(b4c91b419e2780f41a0c396957a0be98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Temp/cangrejo.fbx using Guid(b4c91b419e2780f41a0c396957a0be98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a331dcc548e17b4835e7a4ca24ca679a') in 0.030648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
   path: Assets/Prefabs/Temp/Particle System.prefab
   artifactKey: Guid(8d7782da66523724996deeaf433138cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Temp/Particle System.prefab using Guid(8d7782da66523724996deeaf433138cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '89b989d6bd2f7fa99a30be992f07c4a3') in 0.015012 seconds
+ -> (artifact id: '19e3beaec9f24e8cd1714f390aafe61b') in 0.023914 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
